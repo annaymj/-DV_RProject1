@@ -1,19 +1,27 @@
-Group member: Anna Mengjie Yu (my3852),  Duy Vu (dhv242)
+Group member: Anna Mengjie Yu (my3852),  Duy Vu (dhv242),  Syed Naqvi (san724)
 DV_RProject1
 ========================================================
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring web pages (click the **MD** toolbar button for help on Markdown).
+###This is an R Markdown document for DV_RProject1. 
+In this project, we first created  4 data frames, and created an interesting plot based on each data frame.
 
-When you click the **Knit HTML** button a web page will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+1. In the customers table, we can see there are more customers from different cities in CA.
+
+2. In the orders table, we can see the shipped date is linearly correlated with order date,
+   i.e. the products are mostly shipped out at the relatively same speed after the order.
+   
+3. In the order_detail table, we can see certain product are more popular by some customer, as indicated by order id.
+
+4. In the item table, we can see the range of unit price and the distribution of the price.
+
+
 
 ```{r}
-source("../01 Data/create_data_frame.R", echo = TRUE)
+
+source("../02 Visualizations/Rvisual.R", echo = TRUE)
 
 ```
 
-You can also embed plots, for example:
 
-```{r fig.width=7, fig.height=6}
-plot(cars)
-```
+
 
